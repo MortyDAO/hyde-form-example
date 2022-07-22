@@ -1,0 +1,82 @@
+{
+  "schema": "survey_response:0.1",
+  "answers": [
+    {
+      "question": {
+        "type": "text",
+        "label": "Why did you sign up Hyde?",
+        "description": "",
+        "is_anonymized": true
+      },
+      "type": "text",
+      "value": "To earn money"
+    },
+    {
+      "question": {
+        "type": "scale",
+        "label": "How likely would you recommend Hyde to a friend?",
+        "description": "",
+        "is_anonymized": false,
+        "range": {
+          "min": 0,
+          "max": 5
+        }
+      },
+      "type": "number",
+      "value": 3
+    },
+    {
+      "question": {
+        "type": "select",
+        "label": "Which one would you like to link account in Hyde?",
+        "description": "",
+        "is_anonymized": true,
+        "options": [
+          "Twitter",
+          "Discord",
+          "Steam"
+        ],
+        "allow_multiple_choice": false,
+        "allow_other_choice": false
+      },
+      "type": "text",
+      "value": "Twitter"
+    },
+    {
+      "question": {
+        "type": "select",
+        "label": "Video: Which of your accounts are you willing to link to your hyde profile?",
+        "description": "Accounts that you can already link to your account are not listed here, e.g. Spotify or YouTube.",
+        "is_anonymized": true,
+        "options": [
+          "Amazon Prime",
+          "Apple TV",
+          "Disney Plus",
+          "MUBI",
+          "Netflix",
+          "Sky Go",
+          "None"
+        ],
+        "allow_multiple_choice": true,
+        "allow_other_choice": true
+      },
+      "type": "choices",
+      "value": [
+        "Amazon Prime",
+        "Disney Plus",
+        "Other"
+      ],
+      "other": "Abema TV"
+    },
+    {
+      "question": {
+        "type": "location_select",
+        "label": "And in which country do you reside?",
+        "description": "",
+        "is_anonymized": true
+      },
+      "type": "text",
+      "value": "Japan"
+    }
+  ]
+}
